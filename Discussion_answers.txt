@@ -1,0 +1,38 @@
+Discussion questions:
+
+Runtime
+
+1. The workloand is the number of animal crackers.
+2. 	O(1)
+	O(logn)
+	O(n)
+	O(nlogn)
+	O(n^2)
+	O(2^n)
+
+Stacks and queues
+
+1. Which is the more appropriate data structure?
+	1. Stack
+	2. Queue
+	3. Stack
+2. Two situations where a queue would be an appropriate data structure:
+	1. A line for an ice cream shop -- the first in line get served first.
+	2. Maintenance of food in a grocery store -- first items that came in will be first to be thrown out. 	
+3. Two situations where a stack would be an appropriate data structure:
+	1. Folding laundry -- fold the laundry that is at the top of the basket first.  
+	2  Unpacking boxes -- take out the things at the top of the box first.
+
+Linked Lists
+
+1. The nodes are the box with the data/text "Apple" and the inner-box next, the box with the data/text "Berry" and the inner-box next, and the box with the data/text "Cherry" and the inner-box next  The data for each node are "Apple", "Berry", and "Cherry".  The head is the node with the data "Apple."  The tail is not specificed as part of the instantiated linked list, but it would be the node with the data "Cherry."
+2. The difference between doubly- and singly-linked lists is that doubly-linked lists allow their nodes to point backward to the previous node, whereas singly-linked lists only point to the next node.
+3. It is faster to append to a linked list of we keep track of the tail as an attribute because we need only go straight to the tail node to append. Without keeping track of the tail, we would have to traverse the whole list through each node to get to the tail.
+
+Trees
+
+1. To find burritos, we would start at the node food, then the node Italian, then the node Indian, then the node Mexican, then the node lasagna, then the node pizza, then the node tikka masala, then the node saag, then the node burritos. 
+2. To find Chicago-style, we would start at the node food, then to the node Italian, then to the node lasagna, then to the node pizza, then to the node thin crust, then to the node Chicago-style.
+3. Binary search trees are organized such that all things to the left of each node is of lesser value than the node, and all things to the right of each node is of greater value than that node.  
+
+
